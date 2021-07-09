@@ -106,6 +106,28 @@ main aside{
     padding: 5px;
 }
 
+.user.off label:before{
+    content: '\f4e2  ';
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    color: red;
+}
+.user.off-mic label:before{
+    content: '\f131  ';
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    color: red;
+}
+.user.off.off-mic label:before{
+    content: '\f4e2  \f131  ';
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    color: red;
+}
+.user.active{
+    border: 3px solid greenyellow;
+}
+
 /* Footer Tools Bar */
 footer{
     height: 80px;
