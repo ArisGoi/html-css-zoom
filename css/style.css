@@ -47,6 +47,12 @@ main{
     color: red;
 }
 
+.btn-end{
+    background-color: red;
+    font-size: 15px;
+    padding: 10px 25px;
+}
+
 .btn-none{
     background-color: transparent;
     border: none;
@@ -64,16 +70,20 @@ footer{
 footer i{
     font-size: 25px;
     margin-bottom: 5px;
+    position: relative;
 }
-/* footer .more-opt > i{
+
+footer .tool-item:hover{
+    background-color: #2b2e30;
+    color: white;
+}
+
+footer i.arrowUp:after{
+    content: '\f106';
     font-size: 15px;
     padding: 0 5px;
-} */
-/* .tool-item .more-opt{
-    height: 100%;
-    align-items: flex-start;
-    display: flex;
-} */
+    position: absolute;
+}
 
 .tools-container{
     padding: 10px;
@@ -87,7 +97,3 @@ footer i{
     margin: 0 15px;
     color: #aaabac;
 }
-/* .tool-item .more-opt:hover{
-    background-color: #2b2e30;
-    color: white;
-} */
