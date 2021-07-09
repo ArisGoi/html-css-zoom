@@ -65,14 +65,15 @@ footer i{
     font-size: 25px;
     margin-bottom: 5px;
 }
-footer .more-opt > i{
+/* footer .more-opt > i{
     font-size: 15px;
     padding: 0 5px;
-}
-
-footer, .tool-item .more-opt{
-    color: #aaabac;
-}
+} */
+/* .tool-item .more-opt{
+    height: 100%;
+    align-items: flex-start;
+    display: flex;
+} */
 
 .tools-container{
     padding: 10px;
@@ -83,14 +84,10 @@ footer, .tool-item .more-opt{
 .tool-item{
     text-align: center;
     display: flex;
-    margin: 0 12px;
+    margin: 0 15px;
+    color: #aaabac;
 }
-.tool-item .more-opt{
-    height: 100%;
-    align-items: flex-start;
-    display: flex;
-}
-.tool-item .more-opt:hover{
+/* .tool-item .more-opt:hover{
     background-color: #2b2e30;
     color: white;
-}
+} */
