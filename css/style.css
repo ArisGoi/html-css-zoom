@@ -2,10 +2,52 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
 } 
 
 .clearfix::after {
     content: '';
     display: table;
     clear: both;
+}
+
+/* Common */
+header, main{
+    background-color: #1a1a1a;
+}
+header{
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+main{
+    height: calc(100vh - 60px - 80px); /* (100vh - header_height - footer_height) */
+}
+
+footer{
+    height: 80px;
+    background-color: crimson;
+}
+
+/* Buttons */
+.btn{
+    padding: 10px;
+    margin: 0px 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+}
+.btn i{
+    margin-right: 5px;
+}
+
+.btn.security, .btn.security i{
+    color: chartreuse;
+    margin-right: 0;
+}
+.btn.rec i{
+    color: red;
 }
