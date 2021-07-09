@@ -61,20 +61,49 @@ header{
 /* Main */
 main{
     height: calc(100vh - 60px - 80px); /* (100vh - header_height - footer_height) */
+    display: flex;
+}
+
+main aside{
+    width: 15%;
+}
+
+.userPort{
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    justify-content: center;
+    overflow: hidden;
 }
 
 .user{
     position: relative;
-    height: 300px;
+    width: calc(100% / 5 - 10px);
+    aspect-ratio: 16 / 10;
+    min-width: 250px;
+    margin: 5px;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: #232527;
 }
 .user img{
     height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.user.off img{
+    object-fit: contain;
 }
 .user label{
-    background-color: royalblue;
     position: absolute;
-    left: 0;
-    bottom: 0;
+    left: 10px;
+    bottom: 10px;
+
+    border-radius: 8px;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    padding: 5px;
 }
 
 /* Footer Tools Bar */
