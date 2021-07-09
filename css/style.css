@@ -191,3 +191,7 @@ footer i.arrowUp:after{
     margin: 0 15px;
     color: #aaabac;
 }
+
+#ShareScreen{
+    color: limegreen;
+}
