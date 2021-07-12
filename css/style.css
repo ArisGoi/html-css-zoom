@@ -178,6 +178,11 @@ footer i.arrowUp:after{
     position: absolute;
     margin-left: 8px;
 }
+footer #partecipants > span{
+    font-size: 12px;
+    position: relative;
+    top: -10px;
+}
 
 .tools-container{
     padding: 10px;
